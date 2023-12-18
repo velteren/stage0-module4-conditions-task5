@@ -13,24 +13,22 @@ public class SwitchDaysInMonthPrinter {
             case (10):
             case (12):
                 days = 31;
+                System.out.println(days);
                 break;
             case (2):
                 days = 28;
+                System.out.println(days);
                 break;
             case (4):
             case (6):
             case (9):
             case (11):
                 days = 30;
+                System.out.println(days);
                 break;
             default:
                 days = 0;
-        }
-
-        if (days > 0) {
-            System.out.println(days);
-        } else {
-            System.out.println("Error");
+                System.out.println("wrong number!");
         }
     }
 }
